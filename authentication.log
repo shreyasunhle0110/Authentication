@@ -1,1 +1,25 @@
 2024-02-25T09:08:00.317+05:30  WARN 15476 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8h56m7s972ms211µs500ns).
+2024-02-25T15:01:44.568+05:30  INFO 15852 --- [main] c.B.A.AuthenticationApplication          : Starting AuthenticationApplication using Java 17.0.3 with PID 15852 (C:\projects\Authentication\target\classes started by shrey in C:\projects\Authentication)
+2024-02-25T15:01:44.575+05:30  INFO 15852 --- [main] c.B.A.AuthenticationApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-02-25T15:01:46.784+05:30  INFO 15852 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-25T15:01:46.894+05:30  INFO 15852 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 93 ms. Found 1 JPA repository interfaces.
+2024-02-25T15:01:48.417+05:30  INFO 15852 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2024-02-25T15:01:48.442+05:30  INFO 15852 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-25T15:01:48.442+05:30  INFO 15852 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2024-02-25T15:01:49.286+05:30  INFO 15852 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-25T15:01:49.287+05:30  INFO 15852 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4361 ms
+2024-02-25T15:01:49.730+05:30  INFO 15852 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-25T15:01:49.861+05:30  INFO 15852 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.2.Final
+2024-02-25T15:01:49.868+05:30  INFO 15852 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2024-02-25T15:01:50.233+05:30  INFO 15852 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2024-02-25T15:01:50.642+05:30  INFO 15852 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-25T15:01:50.671+05:30  INFO 15852 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-02-25T15:01:51.467+05:30  INFO 15852 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@18c7f6b5
+2024-02-25T15:01:51.469+05:30  INFO 15852 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-02-25T15:01:51.808+05:30  INFO 15852 --- [main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.3
+2024-02-25T15:01:52.453+05:30  INFO 15852 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2024-02-25T15:01:53.908+05:30  INFO 15852 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-02-25T15:01:54.049+05:30  INFO 15852 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-25T15:01:54.841+05:30  WARN 15852 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-25T15:01:55.496+05:30  INFO 15852 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2024-02-25T15:01:55.509+05:30  INFO 15852 --- [main] c.B.A.AuthenticationApplication          : Started AuthenticationApplication in 11.84 seconds (process running for 13.087)
